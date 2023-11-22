@@ -1,6 +1,8 @@
-import org.springframework.data.jpa.repository.JpaRepository;
-import com.data22aexamprojectlnl2.model.Service;
+package com.example.data22aexamprojectlnl2.repositories;
 
-public interface PosterRepository extends JpaRepository<Poster, Int> {
+import com.example.data22aexamprojectlnl2.models.Poster;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PosterRepository extends JpaRepository<Poster, Integer> {
     // Du kan tilføje egne metoder her, hvis nødvendigt.
 }

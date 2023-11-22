@@ -1,6 +1,8 @@
-import org.springframework.data.jpa.repository.JpaRepository;
-import com.data22aexamprojectlnl2.model.Service;
+package com.example.data22aexamprojectlnl2.repositories;
 
-public interface ImageRepository extends JpaRepository<Image, Int> {
+import com.example.data22aexamprojectlnl2.models.Images;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ImagesRepository extends JpaRepository<Images, Integer> {
     // Du kan tilføje egne metoder her, hvis nødvendigt.
 }

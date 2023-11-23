@@ -14,7 +14,7 @@ public class Company
     private int CVR;
 
     public Company(){
-
+    // test
     }
 
     public Company(int id, String company_Title, String company_Description, int CVR)
